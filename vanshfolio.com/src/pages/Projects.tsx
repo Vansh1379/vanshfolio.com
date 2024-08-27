@@ -1,7 +1,10 @@
+import Sidebar2 from "../components/Sidebar2"
 
 const Projects = () => {
     return (
-        <div>Projects</div>
+        <div>
+            <Sidebar2 />
+        </div>
     )
 }
 

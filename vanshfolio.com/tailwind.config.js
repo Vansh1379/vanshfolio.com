@@ -1,5 +1,3 @@
-
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +8,7 @@ export default {
     extend: {
       colors: {
         customBg: '#f8f4f4',
+        customBlue: '#10142c',  // Added the new custom color
       },
     },
   },
