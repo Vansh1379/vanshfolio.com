@@ -74,7 +74,7 @@ const Button = () => {
                         <span className="text-gray-500">Twitter</span>
                     </button>
                 </div>
-                
+
                 <div className="px-3">
                     <button
                         type="button"
