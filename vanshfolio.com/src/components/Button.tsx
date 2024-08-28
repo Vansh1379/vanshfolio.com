@@ -100,7 +100,7 @@ const Button = () => {
                     </button>
                 </div>
             </div>
-            <div className="pt-10 pl-5 flex items-center pb-10">
+            <div className="pt-10 pl-5 flex items-center pb-7">
                 <button type="button" className="bg-customBlue px-3 py-2.5 rounded-3xl flex items-center justify-center hover:shadow-2xl">
                     <span className=" text-white text-sm  font-semibold">Read Resume</span>
                     <span className="pl-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-4 text-white flex items-center justify-center">

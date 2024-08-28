@@ -9,7 +9,7 @@ import Techstack from './pages/Techstack'
 const App = () => {
 
   return (
-    <div>
+    <div className=''>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
