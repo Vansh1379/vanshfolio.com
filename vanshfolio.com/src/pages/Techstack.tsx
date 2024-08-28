@@ -1,9 +1,9 @@
-import Sidebar2 from "../components/Sidebar2"
+import Sidebar from "./Sidebar"
 
 const Techstack = () => {
     return (
         <div>
-            <Sidebar2 />
+            <Sidebar />
         </div>
     )
 }
