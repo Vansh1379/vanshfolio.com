@@ -1,7 +1,9 @@
 
-const ProjectDisplay = () =>    {
+const ProjectDisplay = () => {
     return (
-        <div>ProjectDisplay</div>
+        <div className="mx-40 max-w-4xl py-16 px-6 border border-black">
+            fwbf
+        </div>
     )
 }
 

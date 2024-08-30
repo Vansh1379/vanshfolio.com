@@ -1,10 +1,11 @@
+import Fotter from "./Fotter"
 import ProjectCard from "./ProjectCard"
 
 const HomeContent = () => {
     return (
-        <div className="mx-40      max-w-4xl py-16 px-6">
+        <div className="mx-40 max-w-4xl py-16 px-6">
             <span className="text-4xl">👋</span>
-            <h1 className="text-3xl font-bold text-gray-600">Hello there! I'm Vansh Kalra</h1>
+            <h1 className="text-3xl font-bold text-gray-600">Hello there! I'm Vansh</h1>
             <p className="max-w-xl text-base font-normal mt-4 text-gray-500">I'm a full-stack developer that loves
                 <span className="bg-neutral-100 px-1 py-0.5">building web apps</span>that can impact some people lives </p>
             <p className="max-w-xl text-base font-normal mt-4 text-gray-500">I'm a junior software engineer with
@@ -15,7 +16,7 @@ const HomeContent = () => {
             <ProjectCard
                 title={"V-Pay"}
                 description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
-                url={"https://dyl347hiwv3ct.cloudfront.net/app/uploads/2023/09/Stadium_V2_1980%E2%80%8A%C3%97%E2%80%8A1128_Text-scaled.jpg"}
+                url={"https://liquiddesigns.in/wp-content/uploads/2017/05/03-PaytmLogo.jpg"}
                 tech1={"React.js"}
                 tech2={"Node.js"}
                 tech4={"MongoDB"}
@@ -25,12 +26,21 @@ const HomeContent = () => {
             <ProjectCard
                 title={"Medium"}
                 description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
-                url={"https://media.gettyimages.com/id/916250080/photo/new-york-ny-guests-pose-with-judith-leiber-products-at-the-papyrus-caf%C3%A9-during-img-nyfw-the.jpg?s=612x612&w=0&k=20&c=TES2RGlwlKpKjEqE2acpCwsnQkIdSsRwkGue2TePrmM="}
-                tech1={"React.js"}
-                tech2={"Node.js"}
-                tech4={"MongoDB"}
-                tech3={"Express.js"}
-                tech5={"Tailwindcss"}
+                url={"https://miro.medium.com/v2/1*jfdwtvU6V6g99q3G7gq7dQ.png"}
+                tech1={"React.ts"}
+                tech2={"Cloudflare"}
+                tech4={"PostgreSQL"}
+                tech3={"Prisma"}
+                tech5={"Typescript"}
+            />
+
+            <ProjectCard
+                title={"vanshfolio"}
+                description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
+                url={"https://miro.medium.com/v2/1*jfdwtvU6V6g99q3G7gq7dQ.png"}
+                tech1={"React.ts"}
+                tech2={"Tailwindcss"}
+                tech3={"Typescript"}
             />
 
             <div className="mt-16">
@@ -47,6 +57,7 @@ const HomeContent = () => {
                     <img src="https://www.logo.wine/a/logo/Cloudflare/Cloudflare-Logo.wine.svg" alt="" className="h-20 w-20 " />
                 </div>
             </div>
+            <Fotter />
         </div>
     )
 }
