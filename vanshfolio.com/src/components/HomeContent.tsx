@@ -57,7 +57,9 @@ const HomeContent = () => {
                     <img src="https://www.logo.wine/a/logo/Cloudflare/Cloudflare-Logo.wine.svg" alt="" className="h-20 w-20 " />
                 </div>
             </div>
-            <Fotter />
+            <div className="mt-10">
+                <Fotter />
+            </div>
         </div>
     )
 }

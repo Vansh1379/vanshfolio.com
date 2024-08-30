@@ -3,9 +3,13 @@ import Sidebar from "./Sidebar"
 
 const Projects = () => {
     return (
-        <div>
-            <Sidebar/>
-            <ProjectDisplay />
+        <div className=" flex bg-gray-100">
+            <div>
+                <Sidebar />
+            </div>
+            <div className="bg-white w-screen mt-2 ml-2 rounded-tl-xl border border-gray-300">
+                <ProjectDisplay />
+            </div>
         </div>
     )
 }
