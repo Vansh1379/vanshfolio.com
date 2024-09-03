@@ -2,7 +2,7 @@ import Fotter from "./Fotter"
 
 const AboutCompo = () => {
     return (
-        <div className="mx-40 max-w-4xl py-16 px-6  min-h-screen border">
+        <div className="mx-40 max-w-4xl py-16 px-6  min-h-screen ">
             <span className="text-4xl">💬</span>
             <h1 className="text-3xl font-bold text-gray-700 font-sans">About Me</h1>
             <div className="max-w-4xl">
