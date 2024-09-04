@@ -1,3 +1,4 @@
+import TechCompo from "../components/TechCompo"
 import Sidebar from "./Sidebar"
 
 const Techstack = () => {
@@ -7,7 +8,7 @@ const Techstack = () => {
                 <Sidebar />
             </div>
             <div className="bg-white w-screen mt-2 ml-2 rounded-tl-xl border border-gray-300">
-
+                <TechCompo />
             </div>
         </div>
     )
