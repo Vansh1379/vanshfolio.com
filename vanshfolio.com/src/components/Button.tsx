@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Button = () => {
     const navigate = useNavigate();
-    const [items, setItems] = useState([
+    const [items] = useState([
         {
             id: 1, title: "Home", icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-4 hover:text-blue-500">
