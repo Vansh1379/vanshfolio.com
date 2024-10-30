@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Techstack from './pages/Techstack'
+import { Shoppr } from './pages/Shoppr'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/project' element={<Projects />} />
           <Route path='/techstack' element={<Techstack />} />
+          <Route path='/shoppr' element={<Shoppr />}/>
         </Routes>
       </BrowserRouter>
     </div>
