@@ -1,5 +1,7 @@
 import Fotter from "./Fotter"
 import ProjectCard from "./ProjectCard"
+import shopprlanding from "../assets/images/ShopprLanding.png"
+import vlanding from "../assets/images/Vanshfolio alnding.png"
 
 const ProjectDisplay = () => {
     return (
@@ -7,6 +9,26 @@ const ProjectDisplay = () => {
             <span className="text-4xl">⚡</span>
             <h1 className="text-3xl font-bold text-gray-600 font-sans">What I've been working on</h1>
             <div>
+            <ProjectCard
+                    title={"Shoppr"}
+                    description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
+                    url={shopprlanding}
+                    tech1={"React.js"}
+                    tech2={"Node.js"}
+                    tech4={"MongoDB"}
+                    tech3={"Express.js"}
+                    tech5={"Tailwindcss"}
+                    route= {"/shoppr"}
+                />
+                <ProjectCard
+                    title={"vanshfolio"}
+                    description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
+                    url={vlanding}
+                    tech1={"React.ts"}
+                    tech2={"Tailwindcss"}
+                    tech3={"Typescript"}
+                    route={"/vanshfolio"}
+                />
                 <ProjectCard
                     title={"V-Pay"}
                     description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
@@ -16,6 +38,7 @@ const ProjectDisplay = () => {
                     tech4={"MongoDB"}
                     tech3={"Express.js"}
                     tech5={"Tailwindcss"}
+                    route={"/vpay"}
                 />
                 <ProjectCard
                     title={"Medium"}
@@ -26,15 +49,7 @@ const ProjectDisplay = () => {
                     tech4={"PostgreSQL"}
                     tech3={"Prisma"}
                     tech5={"Typescript"}
-                />
-
-                <ProjectCard
-                    title={"vanshfolio"}
-                    description={"V-Pay is a secure application enabling seamless money transfers between users, featuring robust security and database-only transactions."}
-                    url={"https://miro.medium.com/v2/1*jfdwtvU6V6g99q3G7gq7dQ.png"}
-                    tech1={"React.ts"}
-                    tech2={"Tailwindcss"}
-                    tech3={"Typescript"}
+                    route={"/medium"}
                 />
             </div>
             <div className="mt-10">

@@ -6,6 +6,8 @@ import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Techstack from './pages/Techstack'
 import { Shoppr } from './pages/Shoppr'
+import { Vpayments } from './pages/Vpayments'
+import { Portfolio } from './pages/Vanshfolio'
 
 const App = () => {
 
@@ -18,7 +20,9 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/project' element={<Projects />} />
           <Route path='/techstack' element={<Techstack />} />
-          <Route path='/shoppr' element={<Shoppr />}/>
+          <Route path='/shoppr' element={<Shoppr />} />
+          <Route path='/vpay' element={<Vpayments />} />
+          <Route path='/vanshfolio' element={<Portfolio />} />
         </Routes>
       </BrowserRouter>
     </div>
